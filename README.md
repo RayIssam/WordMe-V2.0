@@ -1,5 +1,5 @@
-# &#128499 WordMe-V2.0
- A new web app that will help language learners to save the words they would like to learn, and enrich their vocabulary.
+<h1>&#128499 WordMe-V2.0 </h1>
+  A new web app that will help language learners to save the words they would like to learn, and enrich their vocabulary.
  <h5>New features </h5>
  <ul>
  <li>Your word list for learning will be maintained locally so you can review it whenever you want. </li>
