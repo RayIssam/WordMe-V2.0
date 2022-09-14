@@ -1,5 +1,5 @@
 # WordMe-V2.0
- a new web app that will help language learners to save the words they would like to learn, and enrich their vocabulary.
+ A new web app that will help language learners to save the words they would like to learn, and enrich their vocabulary.
  <h5>New features </h5>
  <ul>
  <li>Your word list for learning will be maintained locally so you can review it whenever you want. </li>
