@@ -1,3 +1,5 @@
+
+
 //Selectors
 const paragraph=document.getElementById("paragraph") ;
 const generatedWordsList = document.getElementById("generated-words");
@@ -14,7 +16,6 @@ document.addEventListener("click",LibreTranslate),{once: false};
 document.addEventListener("click",heartIcon)
 document.addEventListener("click",trashIcon)
 document.addEventListener("click",google)
-
 
 //icons 
 //remove item 
@@ -141,7 +142,6 @@ function saveTolocalSTorage(){
 
     }
 
-
 async function LibreTranslate(e){
     e.preventDefault();
     let element = e.target;
@@ -174,8 +174,7 @@ async function LibreTranslate(e){
             let arabicWord=document.createElement("p")
              arabicWord.innerHTML=arabic
              div.append(arabicWord)
-        }
-        
+        }  
     }
 }
 
@@ -188,10 +187,6 @@ function google(e){
         //we open a google tab with meaning of that word that we passed in the link using template literals 
         window.open(`https://www.google.com/search?q=${word}+meaning`);
     }
-        
-
 }
-
-
 
 showWords()
